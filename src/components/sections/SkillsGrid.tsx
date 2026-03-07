@@ -12,7 +12,7 @@ export async function SkillsGrid({ locale }: { locale: Locale }) {
     <div>
       <SectionLabel>{t('skills')}</SectionLabel>
 
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {Object.entries(categories).map(([category, skills]) => (
           <div key={category} className="bg-bg-card border border-border rounded-lg p-4">
             <h3 className="font-mono text-xs text-accent uppercase tracking-wider mb-3">
