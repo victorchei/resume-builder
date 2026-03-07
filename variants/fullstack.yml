@@ -1,0 +1,36 @@
+name: Full-Stack Developer
+language: en
+theme: modern
+
+# Sections to include (order matters)
+sections:
+  - personal
+  - summary
+  - experience
+  - skills
+  - education
+  - languages
+  - projects
+
+# Filter experience by tags (empty = all)
+experienceTags: [fullstack]
+
+# Skill categories to show
+skillCategories:
+  - languages
+  - frameworks
+  - databases
+  - tools
+  - cloud
+
+# Max items per section (0 = unlimited)
+limits:
+  experience: 5
+  projects: 3
+  certifications: 0
+
+# Override title for this variant
+titleOverride: ""
+
+# Override summary for this variant
+summaryOverride: ""

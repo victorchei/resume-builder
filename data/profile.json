@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-03-07",
+    "sources": ["linkedin", "google-drive", "manual"]
+  },
+  "personal": {
+    "name": {
+      "first": "Viktor",
+      "last": "Zhelizko"
+    },
+    "title": {
+      "en": "Full-Stack Developer",
+      "uk": "Full-Stack Розробник"
+    },
+    "location": {
+      "city": "Krakow",
+      "country": "Poland",
+      "en": "Krakow, Poland",
+      "uk": "Краків, Польща"
+    },
+    "contacts": {
+      "email": "",
+      "phone": "",
+      "linkedin": "https://www.linkedin.com/in/viktorzhelizko/",
+      "github": "",
+      "website": ""
+    },
+    "summary": {
+      "en": "",
+      "uk": ""
+    },
+    "photo": "data/photo.jpg"
+  },
+  "experience": [
+    {
+      "id": "exp-1",
+      "company": "",
+      "position": {
+        "en": "",
+        "uk": ""
+      },
+      "location": "",
+      "startDate": "2024-01",
+      "endDate": null,
+      "current": true,
+      "description": {
+        "en": [],
+        "uk": []
+      },
+      "technologies": [],
+      "tags": ["fullstack", "lead"]
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "institution": {
+        "en": "",
+        "uk": ""
+      },
+      "degree": {
+        "en": "",
+        "uk": ""
+      },
+      "field": {
+        "en": "",
+        "uk": ""
+      },
+      "startDate": "",
+      "endDate": "",
+      "description": {
+        "en": "",
+        "uk": ""
+      }
+    }
+  ],
+  "skills": {
+    "languages": [],
+    "frameworks": [],
+    "databases": [],
+    "tools": [],
+    "cloud": [],
+    "methodologies": []
+  },
+  "languages": [
+    {
+      "name": { "en": "Ukrainian", "uk": "Українська" },
+      "level": { "en": "Native", "uk": "Рідна" }
+    },
+    {
+      "name": { "en": "English", "uk": "Англійська" },
+      "level": { "en": "", "uk": "" }
+    },
+    {
+      "name": { "en": "Polish", "uk": "Польська" },
+      "level": { "en": "", "uk": "" }
+    }
+  ],
+  "certifications": [],
+  "projects": [
+    {
+      "id": "proj-1",
+      "name": "",
+      "description": {
+        "en": "",
+        "uk": ""
+      },
+      "url": "",
+      "technologies": [],
+      "tags": []
+    }
+  ]
+}

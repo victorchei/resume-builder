@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.pdf
+*.docx
+data/sources/
+data/photo.jpg
+.env*
+!.env.example

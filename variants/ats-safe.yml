@@ -1,0 +1,30 @@
+name: ATS-Optimized Full-Stack
+language: en
+theme: ats
+
+# Optimal ATS section order per research
+sections:
+  - personal
+  - summary
+  - skills
+  - experience
+  - education
+  - certifications
+
+experienceTags: []
+
+skillCategories:
+  - languages
+  - frameworks
+  - databases
+  - tools
+  - cloud
+  - methodologies
+
+limits:
+  experience: 5
+  projects: 0
+  certifications: 5
+
+titleOverride: ""
+summaryOverride: ""

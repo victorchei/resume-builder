@@ -1,0 +1,28 @@
+name: Tech Lead
+language: en
+theme: modern
+
+sections:
+  - personal
+  - summary
+  - experience
+  - skills
+  - education
+  - languages
+
+experienceTags: [lead, management]
+
+skillCategories:
+  - languages
+  - frameworks
+  - methodologies
+  - cloud
+  - tools
+
+limits:
+  experience: 4
+  projects: 0
+  certifications: 0
+
+titleOverride: ""
+summaryOverride: ""

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viktor Zhelizko — Full-Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Arial', sans-serif;
+      color: #000000;
+      background: #ffffff;
+      line-height: 1.6;
+      font-size: 15px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px;
+    }
+    @media print {
+      .container { padding: 20px; max-width: 100%; }
+      body { font-size: 13px; }
+    }
+    a { color: #1a3a5c; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    h1 { font-size: 2em; font-weight: 700; color: #000000; margin-bottom: 4px; }
+    h2 {
+      font-size: 1.2em; font-weight: 600; color: #1a3a5c;
+      text-transform: uppercase; letter-spacing: 1px;
+      border-bottom: 2px solid #1a3a5c;
+      padding-bottom: 6px; margin: 28px 0 16px;
+    }
+    h3 { font-size: 1.05em; font-weight: 600; color: #000000; }
+    .header { text-align: center; margin-bottom: 8px; }
+    .header .title { font-size: 1.15em; color: #444444; font-weight: 400; margin-bottom: 8px; }
+    .header .contacts { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; font-size: 0.9em; color: #444444; }
+    .header .contacts span::before { content: '|'; margin-right: 12px; color: #cccccc; }
+    .header .contacts span:first-child::before { content: ''; margin-right: 0; }
+    .summary { font-style: italic; color: #444444; padding: 12px 0; }
+    .entry { margin-bottom: 18px; }
+    .entry-header { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; }
+    .entry-header .date { font-size: 0.9em; color: #444444; white-space: nowrap; }
+    .entry-sub { font-size: 0.95em; color: #444444; margin: 2px 0 6px; }
+    .entry ul { padding-left: 20px; }
+    .entry li { margin-bottom: 4px; }
+    .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+    .tag {
+      background: #ffffff; border: 1px solid #cccccc;
+      border-radius: 4px; padding: 2px 8px; font-size: 0.8em; color: #444444;
+    }
+    .skills-grid { display: grid; grid-template-columns: 140px 1fr; gap: 8px 16px; }
+    .skills-grid .cat { font-weight: 600; color: #1a3a5c; text-transform: capitalize; }
+    .skills-grid .items { display: flex; flex-wrap: wrap; gap: 6px; }
+    .langs-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 8px; }
+    .lang-item { display: flex; justify-content: space-between; padding: 6px 12px; background: #ffffff; border-radius: 4px; }
+
+    @media (max-width: 600px) {
+      .container { padding: 20px; }
+      h1 { font-size: 1.6em; }
+      .entry-header { flex-direction: column; }
+      .skills-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Viktor Zhelizko</h1>
+      <div class="title">Full-Stack Developer</div>
+      <div class="contacts"><span><a href="https://www.linkedin.com/in/viktorzhelizko/">LinkedIn</a></span>
+        <span>Krakow, Poland</span></div>
+    </header>
+    <section>
+      <h2>Experience</h2>
+      <div class="entry">
+        <div class="entry-header">
+          <h3></h3>
+          <span class="date">Jan 2024 — Present</span>
+        </div>
+        <div class="entry-sub"></div>
+        <ul>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <h2>Education</h2>
+      <div class="entry">
+        <div class="entry-header">
+          <h3></h3>
+          <span class="date">Present — Present</span>
+        </div>
+        <div class="entry-sub"></div>
+        
+      </div>
+    </section>
+  </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+name: Full-Stack Розробник
+language: uk
+theme: modern
+
+sections:
+  - personal
+  - summary
+  - experience
+  - skills
+  - education
+  - languages
+  - projects
+
+experienceTags: [fullstack]
+
+skillCategories:
+  - languages
+  - frameworks
+  - databases
+  - tools
+  - cloud
+
+limits:
+  experience: 5
+  projects: 3
+  certifications: 0
+
+titleOverride: ""
+summaryOverride: ""
