@@ -6,6 +6,7 @@ import { generateHTML } from './generators/html.js';
 import { generatePDF } from './generators/pdf.js';
 import { generateDOCX } from './generators/docx.js';
 import { scoreResume, formatScoreReport } from './scoring.js';
+import { generateSite } from './generators/site.js';
 
 function loadVariant(root, name) {
   const filePath = resolve(root, 'variants', `${name}.yml`);
@@ -66,7 +67,7 @@ export async function buildResume(opts) {
   }
 
   // Build GitHub Pages site
-  buildGitHubPages(root, profile, variants);
+  buildGitHubPages(root, profile);
   console.log('\nDone!');
 }
 
@@ -146,20 +147,12 @@ function resolveVariant(profile, variant) {
   };
 }
 
-function buildGitHubPages(root, profile, builtVariants) {
+function buildGitHubPages(root, profile) {
   const pagesDir = resolve(root, 'docs');
   mkdirSync(pagesDir, { recursive: true });
 
-  // Copy the default variant HTML as index
-  const distDir = resolve(root, 'dist');
-  const defaultVariant = builtVariants[0];
-  const srcHtml = resolve(distDir, `${defaultVariant}.html`);
-
-  try {
-    const html = readFileSync(srcHtml, 'utf-8');
-    writeFileSync(resolve(pagesDir, 'index.html'), html, 'utf-8');
-    console.log('\nGitHub Pages: docs/index.html updated');
-  } catch {
-    // HTML not built yet, skip
-  }
+  // Generate dedicated site page (not ATS template)
+  const siteHtml = generateSite(profile, 'en');
+  writeFileSync(resolve(pagesDir, 'index.html'), siteHtml, 'utf-8');
+  console.log('\nGitHub Pages: docs/index.html updated (site generator)');
 }
