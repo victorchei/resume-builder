@@ -6,3 +6,8 @@ data/sources/
 data/photo.jpg
 .env*
 !.env.example
+
+# Next.js
+.next/
+out/
+next-env.d.ts
