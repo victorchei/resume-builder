@@ -1,17 +1,18 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "2.0.0",
     "lastUpdated": "2026-03-07",
-    "sources": ["linkedin", "google-drive", "manual"]
+    "sources": ["linkedin", "manual"]
   },
   "personal": {
-    "name": {
-      "first": "Viktor",
-      "last": "Zhelizko"
-    },
+    "name": { "first": "Viktor", "last": "Zhelizko" },
     "title": {
-      "en": "Full-Stack Developer",
-      "uk": "Full-Stack Розробник"
+      "en": "Senior Software Engineer",
+      "uk": "Senior Software Engineer"
+    },
+    "tagline": {
+      "en": "Building robust web solutions with 5+ years of full-stack expertise",
+      "uk": "Створюю надійні веб-рішення з 5+ роками full-stack досвіду"
     },
     "location": {
       "city": "Krakow",
@@ -23,52 +24,104 @@
       "email": "",
       "phone": "",
       "linkedin": "https://www.linkedin.com/in/viktorzhelizko/",
-      "github": "",
-      "website": ""
+      "github": "https://github.com/victorchei",
+      "telegram": "",
+      "website": "https://victorchei.github.io/resume-builder/"
     },
     "summary": {
-      "en": "",
-      "uk": ""
+      "en": "Dedicated software engineer with 5+ years of comprehensive full-stack experience. Specialized in React, TypeScript, and Node.js ecosystems. Built enterprise-grade SPAs for energy monitoring, design systems, and data collection platforms. Strong communicator, problem-solver, and team player who delivers high-quality solutions on time.",
+      "uk": "Досвідчений software engineer з 5+ роками комплексного full-stack досвіду. Спеціалізація: React, TypeScript та Node.js екосистеми. Створював enterprise-рівня SPA для моніторингу енергії, дизайн-системи та платформи збору даних. Сильний комунікатор, problem-solver, командний гравець, який забезпечує якісні рішення вчасно."
     },
-    "photo": "data/photo.jpg"
+    "photo": "/images/photo.svg",
+    "availability": {
+      "status": "open",
+      "note": {
+        "en": "Open to new opportunities",
+        "uk": "Відкритий до нових можливостей"
+      }
+    }
   },
   "experience": [
     {
       "id": "exp-1",
-      "company": "",
+      "company": "Infopulse",
       "position": {
-        "en": "",
-        "uk": ""
+        "en": "Senior Software Engineer (Web Solutions)",
+        "uk": "Senior Software Engineer (Web Solutions)"
       },
-      "location": "",
-      "startDate": "2024-01",
+      "location": "Krakow, Poland",
+      "startDate": "2025-10",
       "endDate": null,
       "current": true,
       "description": {
-        "en": [],
-        "uk": []
+        "en": [
+          "Architected and developed enterprise SPA for energy domain — monitoring energy distribution, health insights, and asset lifecycle optimization",
+          "Led front-end development with React, TypeScript, Redux Toolkit, MUI, and Vitest",
+          "Built real-time data pipeline with NestJS, TypeORM, PostgreSQL, and WebSockets",
+          "Integrated Azure Active Directory authentication across multiple applications"
+        ],
+        "uk": [
+          "Архітектура та розробка enterprise SPA для енергетичного домену — моніторинг розподілу енергії, інсайти стану обладнання та оптимізація життєвого циклу активів",
+          "Лідерство у front-end розробці: React, TypeScript, Redux Toolkit, MUI, Vitest",
+          "Побудова real-time пайплайну даних: NestJS, TypeORM, PostgreSQL, WebSockets",
+          "Інтеграція Azure Active Directory автентифікації між декількома додатками"
+        ]
       },
-      "technologies": [],
-      "tags": ["fullstack", "lead"]
+      "technologies": ["React", "TypeScript", "Redux Toolkit", "MUI", "Vitest", "NestJS", "TypeORM", "PostgreSQL", "WebSockets", "Azure AD"],
+      "tags": ["fullstack", "lead", "senior"]
+    },
+    {
+      "id": "exp-2",
+      "company": "Infopulse",
+      "position": {
+        "en": "Software Engineer (Web Solutions)",
+        "uk": "Software Engineer (Web Solutions)"
+      },
+      "location": "Kyiv, Ukraine",
+      "startDate": "2021-06",
+      "endDate": "2025-10",
+      "current": false,
+      "description": {
+        "en": [
+          "Developed Infopulse Design System with React, TypeScript, MUI, Jest, and Redux Toolkit — used across 10+ internal projects",
+          "Built interactive eDetailers as multi-page applications using Web Components and Lit Elements",
+          "Led front-end development of Infopulse corporate website (JavaScript, SCSS, HTML)",
+          "Created SPA for agriculture vacancies search using Next.js, SCSS, and Redux",
+          "Developed platform for documenting signs of russian aggression — React, TypeScript, NestJS, CosmosDB",
+          "Built staff data collection SPA with React, MUI, and Redux Toolkit",
+          "Developed and integrated chatbots into SPA/MPA applications"
+        ],
+        "uk": [
+          "Розробка Infopulse Design System: React, TypeScript, MUI, Jest, Redux Toolkit — використовується у 10+ внутрішніх проєктах",
+          "Створення інтерактивних eDetailers як MPA з Web Components та Lit Elements",
+          "Лідерство у front-end розробці корпоративного сайту Infopulse (JavaScript, SCSS, HTML)",
+          "SPA для пошуку вакансій в агросекторі: Next.js, SCSS, Redux",
+          "Платформа документування ознак російської агресії — React, TypeScript, NestJS, CosmosDB",
+          "SPA для збору даних персоналу: React, MUI, Redux Toolkit",
+          "Розробка та інтеграція чатботів у SPA/MPA додатки"
+        ]
+      },
+      "technologies": ["React", "TypeScript", "Next.js", "JavaScript", "SCSS", "MUI", "Redux Toolkit", "Jest", "Web Components", "Lit", "NestJS", "CosmosDB", "Azure AD"],
+      "tags": ["fullstack", "frontend"]
     }
   ],
   "education": [
     {
       "id": "edu-1",
       "institution": {
-        "en": "",
-        "uk": ""
+        "en": "Zhytomyr Polytechnic State University",
+        "uk": "Державний університет «Житомирська політехніка»"
       },
       "degree": {
-        "en": "",
-        "uk": ""
+        "en": "Bachelor's Degree",
+        "uk": "Бакалавр"
       },
       "field": {
-        "en": "",
-        "uk": ""
+        "en": "Computer Engineering",
+        "uk": "Комп'ютерна інженерія"
       },
-      "startDate": "",
-      "endDate": "",
+      "startDate": "2017-09",
+      "endDate": "2021-06",
       "description": {
         "en": "",
         "uk": ""
@@ -76,12 +129,15 @@
     }
   ],
   "skills": {
-    "languages": [],
-    "frameworks": [],
-    "databases": [],
-    "tools": [],
-    "cloud": [],
-    "methodologies": []
+    "languages": ["TypeScript", "JavaScript", "HTML", "CSS/SCSS", "SQL", "Python"],
+    "frameworks": ["React", "Next.js", "NestJS", "Redux Toolkit", "Node.js", "Express"],
+    "ui": ["MUI", "Tailwind CSS", "Styled Components", "Web Components", "Lit"],
+    "testing": ["Vitest", "Jest", "Playwright", "React Testing Library"],
+    "databases": ["PostgreSQL", "CosmosDB", "MongoDB", "Redis"],
+    "tools": ["Git", "Docker", "Azure DevOps", "GitHub Actions", "Webpack", "Vite"],
+    "cloud": ["Azure", "Vercel", "AWS"],
+    "methodologies": ["Agile/Scrum", "CI/CD", "TDD", "Code Review"],
+    "highlighted": ["React", "TypeScript", "Node.js", "Next.js", "PostgreSQL"]
   },
   "languages": [
     {
@@ -90,25 +146,32 @@
     },
     {
       "name": { "en": "English", "uk": "Англійська" },
-      "level": { "en": "", "uk": "" }
+      "level": { "en": "Upper-Intermediate (B2)", "uk": "Вище середнього (B2)" }
     },
     {
       "name": { "en": "Polish", "uk": "Польська" },
-      "level": { "en": "", "uk": "" }
+      "level": { "en": "Intermediate (B1)", "uk": "Середній (B1)" }
     }
   ],
-  "certifications": [],
-  "projects": [
+  "certifications": [
     {
-      "id": "proj-1",
-      "name": "",
-      "description": {
-        "en": "",
-        "uk": ""
-      },
-      "url": "",
-      "technologies": [],
-      "tags": []
+      "name": "NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)",
+      "issuer": "Udemy Business",
+      "date": "2024",
+      "url": ""
+    },
+    {
+      "name": "Master NestJS - a Node.js Framework",
+      "issuer": "Udemy Business",
+      "date": "2024",
+      "url": ""
     }
-  ]
+  ],
+  "projects": [],
+  "recommendations": [],
+  "achievements": [],
+  "socialActivity": {
+    "github": { "repos": 0, "contributions": 0, "lastUpdated": "" },
+    "linkedin": { "followers": 657, "lastUpdated": "2026-03-07" }
+  }
 }
