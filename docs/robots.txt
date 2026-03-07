@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://victorchei.github.io/resume-builder
+
+# Sitemaps
+Sitemap: https://victorchei.github.io/resume-builder/sitemap.xml
