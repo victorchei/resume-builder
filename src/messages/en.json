@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "home": "Home",
+    "experience": "Experience",
+    "skills": "Skills",
+    "education": "Education",
+    "contact": "Contact"
+  },
+  "hero": {
+    "downloadCv": "Download CV",
+    "contactMe": "Contact Me"
+  },
+  "sections": {
+    "experience": "Experience",
+    "skills": "Skills",
+    "education": "Education",
+    "languages": "Languages",
+    "certifications": "Certifications",
+    "contact": "Get in Touch"
+  },
+  "common": {
+    "present": "Present",
+    "viewAll": "View All",
+    "switchTheme": "Switch Theme",
+    "switchLang": "Мова"
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  }
+}

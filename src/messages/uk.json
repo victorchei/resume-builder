@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "home": "Головна",
+    "experience": "Досвід",
+    "skills": "Навички",
+    "education": "Освіта",
+    "contact": "Контакт"
+  },
+  "hero": {
+    "downloadCv": "Завантажити CV",
+    "contactMe": "Зв'язатися"
+  },
+  "sections": {
+    "experience": "Досвід",
+    "skills": "Навички",
+    "education": "Освіта",
+    "languages": "Мови",
+    "certifications": "Сертифікати",
+    "contact": "Зв'язатися"
+  },
+  "common": {
+    "present": "Зараз",
+    "viewAll": "Переглянути все",
+    "switchTheme": "Змінити тему",
+    "switchLang": "Language"
+  },
+  "footer": {
+    "rights": "Всі права захищені"
+  }
+}
