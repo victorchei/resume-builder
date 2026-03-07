@@ -1,23 +1,53 @@
 @import "tailwindcss";
 
+/* Dark Editorial (default) */
+:root,
+[data-theme="dark"] {
+  --bg: #0c0c0f;
+  --bg-card: #141419;
+  --bg-elevated: #1a1a22;
+  --border: #2a2a35;
+  --text: #e8e6e3;
+  --text-muted: #8a8a95;
+  --text-dim: #5a5a65;
+  --accent: #c8a86e;
+  --accent-glow: rgba(200, 168, 110, 0.15);
+  --accent-subtle: rgba(200, 168, 110, 0.08);
+}
+
+/* Light Professional */
+[data-theme="light"] {
+  --bg: #fafafa;
+  --bg-card: #ffffff;
+  --bg-elevated: #f0f0f5;
+  --border: #e2e2ea;
+  --text: #1a1a2e;
+  --text-muted: #555566;
+  --text-dim: #888899;
+  --accent: #1a3a5c;
+  --accent-glow: rgba(26, 58, 92, 0.12);
+  --accent-subtle: rgba(26, 58, 92, 0.06);
+}
+
 @theme {
-  --color-bg: #0c0c0f;
-  --color-bg-card: #141419;
-  --color-bg-elevated: #1a1a22;
-  --color-border: #2a2a35;
-  --color-text: #e8e6e3;
-  --color-text-muted: #8a8a95;
-  --color-text-dim: #5a5a65;
-  --color-accent: #c8a86e;
-  --color-accent-glow: rgba(200, 168, 110, 0.15);
-  --color-accent-subtle: rgba(200, 168, 110, 0.08);
+  --color-bg: var(--bg);
+  --color-bg-card: var(--bg-card);
+  --color-bg-elevated: var(--bg-elevated);
+  --color-border: var(--border);
+  --color-text: var(--text);
+  --color-text-muted: var(--text-muted);
+  --color-text-dim: var(--text-dim);
+  --color-accent: var(--accent);
+  --color-accent-glow: var(--accent-glow);
+  --color-accent-subtle: var(--accent-subtle);
   --font-serif: 'DM Serif Display', Georgia, serif;
   --font-sans: 'IBM Plex Sans', -apple-system, sans-serif;
   --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
 }
 
 body {
-  background: var(--color-bg);
-  color: var(--color-text);
+  background: var(--bg);
+  color: var(--text);
   font-family: var(--font-sans);
+  transition: background 0.3s ease, color 0.3s ease;
 }
